@@ -1,5 +1,5 @@
 fastapi
-hypercorn
+uvicorn
 pymongo
 python-dotenv
 google-generativeai
