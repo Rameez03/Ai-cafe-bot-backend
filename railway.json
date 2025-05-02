@@ -4,6 +4,6 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "uvicorn main:app --bind \"[::]:9001\""
+    "startCommand": "hypercorn main:app --bind \"[::]:9001\""
   }
 }
